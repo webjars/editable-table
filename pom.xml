@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>editable-table</artifactId>
-    <version>4932ac1-SNAPSHOT</version>
+    <version>4932ac1</version>
     <name>Mindmup Editable Table</name>
     <description>WebJar for Mindmup Editable Table</description>
     <url>http://webjars.org</url>
@@ -49,7 +49,7 @@
         <url>http://github.com/webjars/editable-table</url>
         <connection>scm:git:https://github.com/webjars/editable-table.git</connection>
         <developerConnection>scm:git:https://github.com/webjars/editable-table.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>editable-table-4932ac1</tag>
     </scm>
     
     <dependencies>
@@ -81,11 +81,11 @@
                         <goals><goal>run</goal></goals>
                         <configuration>
                             <target>
-                                <echo message="download archive"/>
-                                <get src="${upstream.url}" dest="${project.build.directory}/${project.artifactId}.js"/>
-                                <echo message="moving resources"/>
+                                <echo message="download archive" />
+                                <get src="${upstream.url}" dest="${project.build.directory}/${project.artifactId}.js" />
+                                <echo message="moving resources" />
                                 <move todir="${destDir}">
-                                    <fileset file="${project.build.directory}/${project.artifactId}.js"/>
+                                    <fileset file="${project.build.directory}/${project.artifactId}.js" />
                                 </move>
                             </target>
                         </configuration>
