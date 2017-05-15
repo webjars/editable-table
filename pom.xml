@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>editable-table</artifactId>
-    <version>4932ac1</version>
+    <version>4932ac1-SNAPSHOT</version>
     <name>Mindmup Editable Table</name>
     <description>WebJar for Mindmup Editable Table</description>
     <url>http://webjars.org</url>
@@ -82,10 +82,10 @@
                         <configuration>
                             <target>
                                 <echo message="download archive"/>
-                                <get src="${upstream.url}" dest="${project.build.directory}/${project.artifactId}-${version.unsnapshot}.js"/>
+                                <get src="${upstream.url}" dest="${project.build.directory}/${project.artifactId}.js"/>
                                 <echo message="moving resources"/>
                                 <move todir="${destDir}">
-                                    <fileset file="${project.build.directory}/${project.artifactId}-${version.unsnapshot}.js"/>
+                                    <fileset file="${project.build.directory}/${project.artifactId}.js"/>
                                 </move>
                             </target>
                         </configuration>
