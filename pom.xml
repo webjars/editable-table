@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>editable-table</artifactId>
-    <version>4932ac1</version>
+    <version>0-SNAPSHOT</version>
     <name>Mindmup Editable Table</name>
     <description>WebJar for Mindmup Editable Table</description>
     <url>http://webjars.org</url>
@@ -49,7 +49,7 @@
         <url>http://github.com/webjars/editable-table</url>
         <connection>scm:git:https://github.com/webjars/editable-table.git</connection>
         <developerConnection>scm:git:https://github.com/webjars/editable-table.git</developerConnection>
-        <tag>editable-table-4932ac1</tag>
+        <tag>HEAD</tag>
     </scm>
     
     <dependencies>
